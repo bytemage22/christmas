@@ -1,0 +1,7 @@
+.navbar {
+  transform: translateY(-100%);
+}
+
+.navbar.active {
+  transform: translateY(0);
+}
