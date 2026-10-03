@@ -281,6 +281,8 @@
 
     const container = document.querySelector('.new-gifts-container');
     const cards = container.querySelectorAll('.new-gift-card');
+    const middleCard = cards[1];
+    container.scrollLeft = middleCard.offsetLeft - (container.clientWidth / 2) + (middleCard.clientWidth / 2);
   </script>
 </body>
 </html>
