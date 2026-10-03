@@ -350,8 +350,8 @@ h2 {
 .new-gifts-container {
   display: flex;
   gap: 64px;
+  width: 84%;
   max-width: 84%;
-  scrollbar-width: auto;
   overflow-x: auto;
   overflow-y: hidden;
   scrollbar-width: none;
